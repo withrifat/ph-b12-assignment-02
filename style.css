@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif&family=Inder&display=swap');
 @import "tailwindcss";
 
-@theme {
-  --font-body: "Inter", system-ui, sans-serif;
-  --font-noto: "Noto Serif", serif;
-  --font-inder: "Inder", sans-serif;
+/* @layer utilities {
+  .inter{
+    font-family: "Inter", system-ui, sans-serif;
+  }
+  .noto{
+    font-family: "Noto Serif", serif;
+  }
+} */
 
-  --color-brand-orange: #E95A08;
-  --color-pure-black: #000000;
-  --color-black50: rgba(0,0,0,0.5);
-
-  --text-xs: 0.75rem;
-  --text-sm: 0.875rem;
-  --text-base: 1rem;
-  --text-lg: 1.125rem;
-  --text-xl: 1.25rem;
-  --text-2xl: 1.5rem;
+h1 , h2 {
+  font-family: "Noto Serif", serif;
+}
+p, a {
+  font-family: "Inter", system-ui, sans-serif;
+  color: #8987A1;
 }
