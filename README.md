@@ -29,5 +29,7 @@ The live version of the site is hosted on GitHub Pages. Feel free to explore!
 - HTML5
 - CSS3
 - CSS Transitions & Effects
+- TailwindCSS
+- JavaScript
 
 ---
